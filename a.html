@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>这是一个测试</title>
+		
+		<base target="_blank"></base>
+		<style>
+			body{
+				background-image: url(image/2.jpg);
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+			};
+		</style>
+	</head>
+	<body>
+		<header >
+			<h1 >页眉Header</h1>
+		</header>
+		
+		
+		<nav>
+			<a href="http://www.baidu.com">菜单一</a><br/>
+			<a href="http://www.baidu.com">菜单二</a><br/>
+			<a href="http://www.baidu.com">菜单三</a><br/>
+			<a href="http://www.baidu.com">菜单四</a><br/>
+			<a href="http://www.baidu.com">菜单五</a><br/>
+			<a href="http://www.baidu.com">菜单六</a><br/>
+			<a href="http://www.baidu.com">菜单七</a><br/>
+		</nav>
+		
+		
+		<aside>
+			<h3>侧栏Aside</h3>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+			<p>侧栏内容</p>
+		</aside>
+		
+		<a name="top"></a>
+		<p> 这是一个段落(p标签)</p>
+		
+		
+		<h1>h1标题</h1>
+		<h2>h2标题</h2>
+		<h3>h3标题</h3>
+		<h4>h4标题</h4>
+		<h5>h5标题</h5>
+		<h6>h6标题</h6>
+		
+		
+		<p>水平线(hr标签):</p>
+		<hr/>
+		
+		
+		<p>换行符(br标签)<br/></p>
+		<p>换行符</p>
+		
+		
+		<i>斜体字(i标签)<br/></i>
+		
+		
+		<b>粗体字(b标签)<br/></b>
+		<strong>粗字体(认为是重要的,strong标签)<br/></strong>
+		
+		
+		<p>上标签(sup标签)x<sup>2</sup></p>
+		<p>下标签(sub标签)CO<sub>2</sub></p>
+		
+		<p>修订标签(del)<del>错误值</del></p>
+		<p>下画线标签(ins)<ins>下画线</ins></p>
+		
+		
+		<pre>
+			预处理标签(pre)，不会改变你输入的文件格式
+			
+			
+			望天门山
+			【唐】李白
+			天门中断楚江开，
+			碧水东流至此回。
+			两岸青山相对出，
+			孤帆一片日边来。
+		</pre>
+		
+		
+		<ol>
+			<li>第一项(ol是有序列表标签,li是里面的每一项)</li>
+			<li>第二项</li>
+			<li>第三项</li>
+		</ol>
+		
+		<ul>
+			<li>第一项(ul是无序列表标签)</li>
+			<li>第二项</li>
+			<li>第三项</li>
+		</ul>
+		
+		<dl>
+			<p>(外面还有dl标签)</p>
+			<dt>第一个词条(dt)</dt>
+				<dd>第一个词条的定义(dd)</dd>
+			<dt>第二个词条(dt)</dt>
+				<dd>第二个词条的定义(dd)</dd>
+			<dt>第三个词条(dt)</dt>
+				<dd>第三个词条的定义(dd)</dd>
+		</dl>
+		
+		
+		<img src="image/1.jpg" alt="炮姐给你点赞" width="300" height="500"><br/>
+		
+		
+		<a href="http://www.baidu.com">百度(外部链接)</a><br/>
+		<a href="#top" target="_self">跳转顶部1</a><br/>
+		<a target="_top">跳转顶部2(用target属性的_top跳转)</a><br/>
+		<a href="#down" target="_self">跳转底部</a><br/>
+		
+		
+		<table>
+			<caption> 成绩预览表(caption添加标题)(table是创建表格)(tr代表一行)(th是表头)(td表格数据)</caption>
+			<tr>
+				<th>姓名</th>
+				<th>语文</th>
+				<th>数学</th>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>90</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>李四</td>
+				<td>80</td>
+				<td>89</td>
+			</tr>
+		</table>
+		
+		<p> (iframe标签):</p>
+		<iframe src="news.html" width="800" height="500"></iframe>
+		
+		<div id="div1">
+			<p>div标签可以将网页分为不同的独立部分</p>
+		</div>
+		
+		
+		<p>本段落使用了<span style="color: red;">span标签</span></p>
+		
+		
+		
+		<a name="down"></a>
+		<section>
+			<article>
+				<p>这是<mark>mark标签</mark></p>
+			</article>
+		</section>
+		
+		
+		<h3>progress的简单应用</h3>
+		文件正在下载中：
+		<progress value="35" max="100"></progress>
+		
+		<hr />
+		<h3>度量标签meter的简单应用</h3>
+		C盘空间剩余容量:
+		<meter min="0" max="1000" value="300" low="400" high="800" optimum="1000"></meter><br/>
+		D盘空间剩余容量:
+		<meter min="0" max="1000" value="600" low="400" high="800" optimum="1000"></meter><br/>
+		E盘空间剩余容量:
+		<meter min="0" max="1000" value="900" low="400" high="800" optimum="1000"></meter><br/>
+		
+		选择家乡(下拉菜单):<br/>
+		<select>
+			<option selected>上海</option>
+			<option>北京</option>
+			<option>南昌</option>
+			<option>赣州</option>
+			<option>宁都</option>
+		</select>
+		<br/>	
+		选择家乡(下拉菜单):<br/>
+		<select  multiple>
+			<option selected>上海</option>
+			<option>北京</option>
+			<option>南昌</option>
+			<option>赣州</option>
+			<option>宁都</option>
+			<option>北京</option>
+			<option>南昌</option>
+			<option>赣州</option>
+			<option>宁都</option>
+			<option>北京</option>
+			<option>南昌</option>
+			<option>赣州</option>
+			<option>宁都</option>
+		</select>
+		
+		
+		表单:<br/>
+		<form>
+			输入账号(文本框):<input type = "text"/><br/>
+			输入密码(密码框):<input type = "password"/><br/>
+			选择性别(单选按钮):
+			<input type = "radio" name = "sex" checked/>男
+			<input type = "radio" name = "sex" /> 女<br/>
+			选择爱好(复选框):
+			<input type = "checkbox" />唱歌
+			<input type = "checkbox" />跳舞
+			<input type = "checkbox" checked/>打球
+			<input type = "checkbox" />打游戏<br/>
+			<input type = "submit" value = "注册"/>
+			<input type = "reset" value = "清空"/>
+			<input type = "button" value = "普通按钮"/>
+		</form>
+		
+		<a onclick = "history.forward()">前进</a>
+		<a onclick = "history.back()">后退</a>
+		
+		<input type = "button" onclick ="fun2()" value="按钮">
+		
+		<blink>闪烁字体</blink>
+		
+		<footer><h2>页脚Footer</h2></footer>
+		</body>
+		
+		<script src="javascript/object.js"></script>
+		
+</html>
